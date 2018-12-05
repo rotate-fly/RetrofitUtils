@@ -38,7 +38,7 @@ import retrofit2.http.Url;
  * @author hzs
  * app 在线更新功能
  * 调用方式：
- *     String url = "http://appstoreupload.daliandong.cn/appStore/apk/2018/11/29/1315376166.apk";
+ *     String url = "http://********.apk";
  *         Intent downIntent = new Intent(this, DownLoadService.class);
  *         downIntent.putExtra("url",url);
  *         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
